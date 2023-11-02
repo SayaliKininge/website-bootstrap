@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: #FECC25;
+    text-align: center;
+   line-height: 40px;
+   font-weight: 500;
+}
+.top p a {
+   color: #A13D83;
+}
+.header-section {
+    height: 80px;
+text-align: center;
+   align-items: center;
+   margin-top: 20px;
+}
+.header-section input[type=search] {
+    width: 130px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+.header-section  a img {
+
+    justify-content: space-around;
+}
+.header-section .search-btn {
+    margin-left: -50px;
+}
+.header-section span {
+    font-size: 19px;
+}
+.header-section span:hover {
+    color: #A13D83;
+}
+.header-section .icon {
+    color: black;
+    font-size: 29px;
+    padding: 10px;
+}
+.header-section .nav-right {
+    justify-content: space-between;
+    align-items: center;
+   vertical-align: middle;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    border: 1.5px solid black;
+}
+.navbar .dropdown-menu_list {
+    width: 700px;
+}
+/* .banner {
+    margin-bottom: 60px;
+} */
+.category .row-center {
+    align-items: center;
+    justify-content: center;
+}
+.category .row-center .cat-box {
+    border: 3px solid purple;
+    text-align: center;
+    padding:15px 10px;
+    color: #A13D83;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.category .row-center .cat-box:hover {
+    background-color: #FECC25;
+    color: #fff;
+}
+
+ .headding {
+    position: relative;
+}
+ .headding h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+ .headding::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    top: 0px;
+    left: 80px;
+    height: 1px;
+    border: 1px solid rgb(126, 125, 125);
+}
+.headding::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    top: 0px;
+    right:90px;
+    height: 1px;
+    /* background-color: red; */
+    border: 1px solid rgb(126, 125, 125);
+}
+.spotlight .headding a {
+    text-align: center;
+}
+.spotlight  button,
+ .add-cart
+ {
+    background-color: #A13D83;
+    color: #fff;
+
+}
+
+.bestsellers .owl-nav  {
+    text-align: center;
+  font-size: 40px;
+
+}
+.img-border {
+    border: 1px solid black;
+}
+.display-6 {
+    font-size: 12px;
+}
+.social-icon {
+    font-size: 25px;
+}
+.social-icon i:hover {
+    color: #9a2376;
+}
+
+footer {
+    background-color: rgb(203, 200, 200);
+}
+
+

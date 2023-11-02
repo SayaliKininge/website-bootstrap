@@ -1,0 +1,5 @@
+@media screen and (max-width: 576px) {
+    .navbar input[type=search] {
+        width: 400px;
+    }
+}
